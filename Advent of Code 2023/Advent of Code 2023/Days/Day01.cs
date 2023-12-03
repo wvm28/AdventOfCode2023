@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Advent_of_Code_2023.Days
+﻿namespace Advent_of_Code_2023.Days
 {
     public class Day01 : IDay
     {
@@ -33,7 +27,7 @@ namespace Advent_of_Code_2023.Days
 
             var listOfFirstAndLastDigits = new List<int>();
 
-            foreach(var row in listOfNumbers)
+            foreach (var row in listOfNumbers)
             {
                 var firstDigit = row[0];
                 var secondDigit = row[row.Count - 1];
